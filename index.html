@@ -1,212 +1,220 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <link rel="stylesheet" href="./css/style.css">
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Pipoco do Trovão</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Gerenciamento de estoque</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Rastreio de Entregas</a>
-            </li>
-            <li  class="nav-item position-absolute center-0 end-0" >
-              <a class="nav-link ">Logout</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pipoco do Trovão</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gerenciamento de estoque</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Rastreio de Entregas</a>
+          </li>
+          <li  class="nav-item position-absolute center-0 end-0" >
+            <a class="nav-link ">Logout</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-  </header>
+    </div>
+  </nav>
+</header>
 
-  <main>
-    <h1 class="row mt-5 justify-content-center "> Novo Dashboard
-  
-    </h1>
-    <div class="container  mt-5 justify-content-center">
-  
-      <div class="row mx-auto" style="width: 350px;"">
-  
-        <div class="col-6">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Modal de Produtos
-          </button>
-  
-          <!-- Modal -->
-          <div class="modal fade modal-dialog-scrollable" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-  
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-                  PRODUTO<br>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-                  <br>
-  
-  
-  
-  
-  
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+<main>
+  <div class="container">
+    <div class="row mt-5 row-cols-3 mx-auto" ">
+      <table class=" table table-hover mt-4">
+      <thead>
+        <tr>
+          <th>Produto</th>
+          <th>Preço</th>
+          <th>Quantidade</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Camisa Palmeiras</td>
+          <td>350,0</td>
+          <td>2</td>
+          <td>
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+              Detalhes
+            </button>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h2 class="modal-title" id="exampleModalLabel">Camisa Palmeiras</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex">
+                    <div>
+                      <img src="./img/Tênis adidas.webp" alt="" width="180" height="">
+                    </div>
+                    <div>
+                      <ul>
+                        <a>Essa é a camisa mais linda do mundo!</a>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-            Cadastrar Produtos
-          </button>
-  
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <form class="row gy-2 gx-3 align-items-center">
-                    <div class="input-group">
-                      <div class="input-group-text">Produto</div>
-                      <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Nome"><button type="button" class="btn btn-danger liveAlertBtn2">Excluir</button>
-                      <div id="liveAlertPlaceholder2"></div>
+          </td>
+          <td>
+            <button type="button" class=" btn btn-danger">Excluir</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Meião verde</td>
+          <td>70,90</td>
+          <td>10</td>
+          <td>
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+              Detalhes
+            </button>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h2 class="modal-title" id="exampleModalLabel">Meião Verde</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex">
+                    <div>
+                      <img src="img/Camisa Anti-Suor.jfif" alt="" width="180" height="">
                     </div>
-  
-                    <div class="input-group">
-                      <div class="input-group-text">Preço</div>
-                      <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Valor"><button type="button" class="btn btn-danger liveAlertBtn2">Excluir</button>
-                      <div id="liveAlertPlaceholder2"></div>
+                    <div>
+                      <ul>
+                        <a>Meião mais verde do mundo!</a>
+                        <br>
+                      </ul>
                     </div>
-  
-                    <div class="input-group">
-                      <div class="input-group-text">Quantidade</div>
-                      <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="Quantidade"><button type="button" class="btn btn-danger liveAlertBtn2">Excluir</button><div id="liveAlertPlaceholder2"></div>
-                    </div>
-  
-  
-  
-                    <div class="col-auto">
-                      <button type="submit" class="btn btn-primary" id="liveAlertBtn">Enviar</button>
-                     
-                      <div id="liveAlertPlaceholder"></div>
-
-
-                    </div>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
-                  <button type="button" class="btn btn-primary">Salvar</button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </td>
+          <td>
+            <button type="button" class=" btn btn-danger">Excluir</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Chuteira</td>
+          <td>709,90</td>
+          <td>23</td>
+          <td>
+            <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+              Detalhes
+            </button>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="display: none;">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header ">
+                    <h2 class="modal-title" id="exampleModalLabel">Chuteira</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body d-flex">
+                    <div>
+                      <img src="img/Garrafa de água.jp2" alt="" width="180" height="">
+                    </div>
+                    <div>
+                      <ul>
+                        <a>Chuteira</a>
+                        <br>
+                        <a>A unica chuteira Tri da América</a>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </td>
+          <td>
+            <button type="button" class=" btn btn-danger">Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
 
-  </main>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalup">
+  Cadastrar Produtos
+</button>
 
-  <footer>
-    <div class="row mt-5">
-
-
-      <div class="col-lg-4 col-md-6">
-        <div class="card pt-3 text-center m-2">
-          <img src="https://static8.depositphotos.com/1010338/960/i/450/depositphotos_9600914-stock-photo-walking-ladder-of-success.jpg" class="card-img-top rounded-circle w-75 mx-auto "width="250" height="250" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">...</h5>
-            <h6 class="card-text">Dev</h6>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Detalhes</a>
-          </div>
-        </div>
+<!-- Modal -->
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModalup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
-      <div class="col-lg-4 col-md-6 ">
-        <div class="card pt-3 text-center m-2">
-          <img src="https://images.educamaisbrasil.com.br/content/banco_de_imagens/guia-de-estudo/D/tipos-graficos-pizza-matematica.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="..." width="250" height="250">
-          <div class="card-body">
-            <h5 class="card-title">...</h5>
-            <h6 class="card-text">Dev</h6>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Detalhes</a>
+      <div class="modal-body">
+        <form class="row gy-2 gx-3 align-items-center">
+          <div class="input-group">
+            <div class="input-group-text">Produto</div>
+            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Nome">
+
           </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 ">
-        <div class="card pt-3 text-center m-2">
-          <img src="https://www.hitecnologia.com.br/media/uploads/blog/posts/hiscadapro/.thumbnails/chart-1.png/chart-1-400x0.png" class="card-img-top rounded-circle w-75 mx-auto"width="250" height="250" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">...</h5>
-            <h6 class="card-text">Dev</h6>
-            <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Detalhes</a>
+
+          <div class="input-group">
+            <div class="input-group-text">Preço</div>
+            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Valor">
+
           </div>
-        </div>
+
+          <div class="input-group">
+            <div class="input-group-text">Quantidade</div>
+            <input type="number" class="form-control" id="autoSizingInputGroup" placeholder="Quantidade">
+          </div>
+
+
+
+          <div class="col-auto">
+            <button type="submit" class="btn btn-primary" id="liveAlertBtn">Enviar</button>
+           
+            <div id="liveAlertPlaceholder"></div>
+
+
+          </div>
+        </form>
       </div>
-       
-       </div>
-  </footer>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sair</button>
+        <button type="button" class="btn btn-primary">Salvar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
 
 
+</main>
+  
 
-
-
-
-
-  <!-- JavaScript Bundle with Popper -->
+<!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-<script src="./script.js"></script>
 </body>
 </html>
