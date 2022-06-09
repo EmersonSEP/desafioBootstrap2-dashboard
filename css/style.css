@@ -2,3 +2,27 @@ h2 {
   margin-top: 50px;
   text-align: center;
 }
+.navbar {
+  background-color: rgb(12, 88, 12) !important;
+
+}
+
+ul a{
+  color: white !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+}
